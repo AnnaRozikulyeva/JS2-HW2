@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spacework_Rozikulyeva</title>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&amp;subset=cyrillic,cyrillic-ext,latin-ext" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .select {
+            display: inline;
+            padding: 0 5px;
+        }
+        input {
+            margin-left: 40px;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <h2>Собери себе бургер</h2>
+
+        <h4>Выберите размер бургера</h4>
+        <form id="size"></form>
+        <h4>Выберите начинку</h4>
+        <form id="ingridients"></form>
+        <h4>Добавить сверху</h4>
+        <form id="more"></form>
+        <h4>Итого получилось</h4>
+        <div id="basket">
+            <p id="sizeBurger"></p>
+            <p id="ingBurger"></p>
+            <p id="moreBurger"></p>
+        </div>
+        <div id="quantity"></div>
+    </main>
+    <script src="fastfood-js.js"></script>
+</body>
+</html>
